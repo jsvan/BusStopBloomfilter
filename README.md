@@ -20,7 +20,7 @@ You will need to know the "fingerprint" of your destination. This is the fingerp
 ![image](https://user-images.githubusercontent.com/9337973/182030849-b8a04c14-814e-4075-ae7a-ba321cb38768.png)
 
 
-Every stop will have a fingerprint of all the buses coming through. This is the fingerprint of a matching stop. 
+Every stop will accumulate the fingerprint of all the buses coming through. This is the fingerprint of a matching stop. 
 Notice the 'e', 'G', and 'g' all have their symbols present.
 ![image](https://user-images.githubusercontent.com/9337973/182030864-cec24c37-6703-48cf-8b2a-f1063a3fd06d.png)
 
