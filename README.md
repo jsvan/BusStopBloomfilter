@@ -11,29 +11,36 @@ My technique can visualize 192 bits, and achieve a < 0.5% false positive rate on
 
 https://www.youtube.com/watch?v=rGu2NkZPEzo
 
-Population will expand and public transportation will become more complex. How can we rethink how we do public transportation signage to keep finding your bus (and/or your bus stop) independent of how many buses are arriving or how complex their routes are?
+Population will expand and public transportation will become more complex. How can we rethink how we do public transportation signage to keep finding your bus (and/or your bus stop) independent of how many buses are arriving or how complex their routes are? 
+
+
 
 
 Example:
 
-You will need to know the "fingerprint" of your destination. This is the fingerprint for Stendal Hbf.
-![image](https://user-images.githubusercontent.com/9337973/182030849-b8a04c14-814e-4075-ae7a-ba321cb38768.png)
+**You will need to know the "fingerprint" of your destination. This is the fingerprint for Stendal Hbf (three bits of information).** 
+> ![image](https://user-images.githubusercontent.com/9337973/182030849-b8a04c14-814e-4075-ae7a-ba321cb38768.png) 
 
 
-Every stop will accumulate the fingerprint of all the buses coming through. This is the fingerprint of a matching stop. 
-Notice the 'e', 'G', and 'g' all have their symbols present.
-![image](https://user-images.githubusercontent.com/9337973/182030864-cec24c37-6703-48cf-8b2a-f1063a3fd06d.png)
 
 
-Here we have a bus/train coming. This is its fingerprint. Your destination fingerprint does not match, so you do not get on.
-![image](https://user-images.githubusercontent.com/9337973/182030880-0c80d261-aad8-44a1-8eef-9039ab5cf026.png)
+**Every bus stop's destination placard will show the accumulated fingerprints of all the buses coming through. This is the fingerprint of a matching stop. There is at least one bus passing through this stop which will also go to your destination. 
+Notice the 'e', 'G', and 'g' all have their symbols present.** 
+> ![image](https://user-images.githubusercontent.com/9337973/182030864-cec24c37-6703-48cf-8b2a-f1063a3fd06d.png) 
 
 
-This bus coming is correct, your fingerprint matches. Get on!
-![image](https://user-images.githubusercontent.com/9337973/182030893-d9b97e27-671d-45c2-b200-73b69e2123de.png)
+
+**Here we have a bus/train coming. This is its fingerprint. Your destination fingerprint does not match, so you do not get on.** 
+> ![image](https://user-images.githubusercontent.com/9337973/182030880-0c80d261-aad8-44a1-8eef-9039ab5cf026.png) 
+
+
+
+**This bus coming is correct, your fingerprint matches. Get on!** 
+> ![image](https://user-images.githubusercontent.com/9337973/182030893-d9b97e27-671d-45c2-b200-73b69e2123de.png) 
+
 
 
 Benefits are that 
-> scaling your bus system does not lead to more complicated fingerprints
-> riders must not read signage, and no written language or alphabet
-> very quick to see where you need to be and which bus you should board
+* scaling your bus system does not lead to more complicated fingerprints
+* riders must not read signage in a given language or alphabet
+* very quick to see where you need to be and which bus you should board
