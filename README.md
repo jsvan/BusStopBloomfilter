@@ -1,7 +1,7 @@
 # BusStopBloomfilter
 Proof of Concept:
 
-Navigating arbitrarily complex bus systems can be tricky, especially as bus listings and routes are listed in O(N) style wall-posters. Can we use finger printing ie bloom filters to make routing decisions O(1) for the passenger? 
+Navigating arbitrarily complex bus systems can be tricky, especially as bus listings and routes are listed in O(N) style wall-posters. Can we use bloom filters to make routing decisions O(1) for the passenger? 
 
 Here is a short look on two problems: 
 1) how can we visualize a bit array?
