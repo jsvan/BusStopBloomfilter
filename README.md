@@ -9,7 +9,7 @@ Here is a short look on two problems:
 
 My technique can visualize 192 bits, and achieve a < 0.5% false positive rate on my Deutsche Bahn system simulation. 
 
-Following is a video presentation of this idea:
+Following is a video presentation of this idea which is the same information that is here just in video format, honestly you shouldn't even watch it unless you really like sitting through presentations:
 
 https://www.youtube.com/watch?v=rGu2NkZPEzo
 
