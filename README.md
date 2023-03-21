@@ -9,6 +9,8 @@ Here is a short look on two problems:
 
 My technique can visualize 192 bits, and achieve a < 0.5% false positive rate on my Deutsche Bahn system simulation. 
 
+Following is a video presentation of this idea:
+
 https://www.youtube.com/watch?v=rGu2NkZPEzo
 
 Population will expand and public transportation will become more complex. How can we rethink how we do public transportation signage to keep finding your bus (and/or your bus stop) independent of how many buses are arriving or how complex their routes are? 
