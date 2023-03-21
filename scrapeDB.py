@@ -79,13 +79,13 @@ for station_id in allstations.keys():
 
 import pickle
 print('dumping')
-with open("/Users/onion/Documents/Classes/pickles/allstations.pkl", 'wb') as F:
+with open("./pickles/allstations.pkl", 'wb') as F:
     pickle.dump(allstations, F)
 
-with open("/Users/onion/Documents/Classes/pickles/alltimetables.pkl", 'wb') as F:
+with open("./pickles/alltimetables.pkl", 'wb') as F:
     pickle.dump(alltimetables, F)
 
-with open("/Users/onion/Documents/Classes/pickles/alltrains.pkl", 'wb') as F:
+with open("./pickles/alltrains.pkl", 'wb') as F:
     pickle.dump(alltrains, F)
 print('dumped')
 
