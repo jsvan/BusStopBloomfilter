@@ -46,3 +46,95 @@ Benefits are that
 * scaling your bus system does not lead to more complicated fingerprints
 * riders must not read signage in a given language or alphabet
 * very quick to see where you need to be and which bus you should board
+
+
+Other visualization techiniques I've thought of were using a 2d array of emojis. If we could get 15x15 emojis, we could subdivide that into nine 5x5 square tiles like a tic-tac-toe board, give each square a unique background colour, and tell people, if you have a crocodile in the upper left blue tiles and... etc. Emojis may look tacky, but they are distinct images, compact in size, free, prevalent, and people are already largely familiar with that particular set of pictures, so it would be more intuitive. 
+
+
+<!---
+<table>
+  <tr>
+    <td style="background:lightblue; border: 1px solid #333;">
+      ⛺️ 💚 👀 🖊 ☝️<br>
+      🗳 🏃 🔵 🙆 ☀️<br>
+      🏫 📙 💯 ✏️ 🍺<br>
+      🍂 〽️ 🚎 🌽 🔱<br>
+      🔼 🕓 😼 💳 🐏
+    </td>
+    <td style="background:lightgreen; border: 1px solid #333;">  
+      🐮 🐬 🚹 ⏏ 🌁<br>
+      😴 🚧 🏑 ♨️ 🎪<br>
+      😸 🅰️ 🙋 ♿️ ✊<br>
+      🐊 🕟 🐨 🏚 🚬<br>
+      ™️ 💰 😰 🏡 🍿
+    </td>
+    <td style="background:yellow;  border: 1px solid #333;">
+      💜 ☮ 🛣 ☢ 🐙<br>
+      💉 ⛈ 🎞 🎍 🕊<br>
+      🍭 🙁 👻 👎 📌<br>
+      🚀 📘 🐛 🌖 🍖<br>
+      🔥 ✡ 💗 🔯 ➿
+    </td>
+  </tr>
+  <tr>
+    <td style="background:lightpink;  border: 1px solid #333;">
+      🦄 👷 👵 🌵 😌<br>
+      😖 🏐 ✴️ 🔙 🗃<br>
+      🚅 🏟 🃏 🐜 ✍<br>
+      🎑 👰 🎻 👐 🎵<br>
+      🤔 🔒 🌧 🚺 💈
+    </td>
+    <td style=" border: 1px solid #333;">  
+      🍐 🌪 😄 🎓 🌃<br>
+      ⏳ 🔨 🚊 ◽️ ↖️<br>
+      ⚙ 😡 🔊 🎙 ➰<br>
+      🔋 ♈️ 😚 ⚔ ⏪<br>
+      🕒 ☺️ 🍳 #️⃣ 🗼
+    </td>
+    <td style="background:lightgray;  border: 1px solid #333;">
+      🎫 🕉 ☹ 🔏 💹<br>
+      📕 🎿 🌾 🐻 🏞<br>
+      ❎ 💣 🐩 🔝 🚞<br>
+      👚 🍎 🚖 😽 ☑️<br>
+      🗿 🌛 🈹 📞 🏓
+    </td>
+  </tr>
+  <tr>
+    <td style="background:orange; border: 1px solid #333;">
+      🐰 🎮 🚲 🚛 😹<br>
+      🎚 🚣 🍨 🚂 🍋<br>
+      🚭 ⛑ 📝 🚋 🗝<br>
+      🙅 🕵 🗯 🕡 🛁<br>
+      🌇 👶 🏖 ❣ 🐿
+    </td>
+    <td style="background:violet; border: 1px solid #333;">  
+      🕞 🍊 🈸 9️⃣ 😁<br>
+      😝 🏤 ⬇️ 🏕 ⏸<br>
+      😲 🎹 🍵 🚁 🌠<br>
+      🤒 🔂 🌶 ✂️ 🐃<br>
+      🐦 ♐️ 🦂 🐇 2️⃣
+    </td>
+    <td style="background:black;  border: 1px solid #333;">
+      ⚓️ 🍝 💬 🍜 👑<br>
+      😤 🎄 🚒 👧 🌕<br>
+      🌈 🏀 💦 👄 🏰<br>
+      🚉 💐 🍁 👳 🙂<br>
+      🔎 ⭐️ 🚢 👪 😪
+    </td>
+  </tr>
+  </table>
+-->
+
+The full emoji table could look like:
+
+![image](https://user-images.githubusercontent.com/9337973/227025986-f332118c-8043-4f30-9855-298d28b5f93f.png)
+
+but in practice it would more resemble:
+
+![image](https://user-images.githubusercontent.com/9337973/227028035-7e947ca1-7555-4362-b72d-e0107bf3afa6.png)
+
+
+With a fingerprint looking like:
+
+![image](https://user-images.githubusercontent.com/9337973/227028595-7bd83d05-4c4a-49a1-964c-dda2080d7243.png)
+
