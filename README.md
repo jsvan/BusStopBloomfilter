@@ -125,7 +125,7 @@ Other visualization techiniques I've thought of were using a 2d array of emojis.
   </table>
 -->
 
-The full emoji table could look like:
+The full emoji table could look like (randomly generated):
 
 ![image](https://user-images.githubusercontent.com/9337973/227025986-f332118c-8043-4f30-9855-298d28b5f93f.png)
 
