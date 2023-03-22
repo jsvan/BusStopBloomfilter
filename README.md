@@ -48,7 +48,7 @@ Benefits are that
 * very quick to see where you need to be and which bus you should board
 
 
-Other visualization techiniques I've thought of were using a 2d array of emojis. If we could get 15x15 emojis, we could subdivide that into nine 5x5 square tiles like a tic-tac-toe board, give each square a unique background colour, and tell people, if you have a crocodile in the upper left blue tiles and... etc. Emojis may look tacky, but they are distinct images, compact in size, free, prevalent, and people are already largely familiar with that particular set of pictures, so it would be more intuitive. 
+Other visualization techiniques I've thought of were using a 2d array of emojis. If we could get 15x15 emojis we would have 225 bits of info, we could subdivide that into nine 5x5 square tiles like a tic-tac-toe board, give each square a unique background colour, and tell people, if you have a crocodile in the upper left blue tiles and... etc. Emojis may look tacky, but they are distinct images, compact in size, free, prevalent, and people are already largely familiar with that particular set of pictures, so it would be more intuitive. With any system I can think of, high-res screens or printed pieces of paper would be required to display the level of detail symbols need. 
 
 
 <!---
