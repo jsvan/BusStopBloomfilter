@@ -15,7 +15,7 @@ def alphafilter(s):
 
 results = []
 pleaseadd = True
-with pdfplumber.open('/Users/onion/Downloads/db.pdf') as pdf:
+with pdfplumber.open('../Downloads/db.pdf') as pdf:
     for x in pdf.pages:
         foundroutes = r.findall(x.extract_text())
         for route in foundroutes:
